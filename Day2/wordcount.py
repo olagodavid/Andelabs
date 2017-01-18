@@ -1,13 +1,16 @@
-#fuction that counts the occurrences or characters in a word.
-#counts one word
-#counts one of each
-#should count multiple occurrences
-#should include punctuation
-#
-#
-#
-#
-#
+""" When the functon runs, it; 
+ print(words('word'))
+ print(words("one of each"))
+ print(words("one fish two fish red fish blue fish"))
+ print(words('car : carpet as java : javascript!!&@$%^&'))
+ print(words('testing 1 2 testing'))
+ print(words('go Go GO'))
+ print(words('¡Hola! ¿Qué tal? Привет!'))
+ print(words('hello\nworld'))
+ print(words('hello\tworld'))
+ print(words('hello  world')) 
+"""
+
 def words(string):
 	x = {}
 	word_list = string.split()
